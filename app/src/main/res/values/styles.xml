@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="Text" parent="TextAppearance.AppCompat" />
+
+    <style name="Text.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Text.Subtitle" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Text.Body" parent="TextAppearance.AppCompat.Body1" />
+
+    <style name="Text.Body.Bold" parent="Text.Body">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Caption" parent="TextAppearance.AppCompat.Caption" />
+
+    <style name="Text.Caption.SingleLine" parent="Text.Caption">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+</resources>
